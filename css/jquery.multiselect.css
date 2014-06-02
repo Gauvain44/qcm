@@ -1,0 +1,36 @@
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000; text-align: left }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:auto }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px;margin-right: 10px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+.ui-state-default.mtz-monthpicker.mtz-monthpicker-month:hover { background:#EAEBFF;cursor:pointer}
+.ui-state-default{cursor:pointer}
+.ui-widget-content .ui-state-default { background-color:#ddd;color:#444444; }
+.ui-datepicker .ui-datepicker-header{background-color:#336CA6;}
+.ui-datepicker-calendar .ui-state-active {
+    background-color: #427FED;
+    border-color: #336CA6;
+    color: #FFFFFF;
+}
+.ui-state-hover, .ui-widget-hover .ui-state-hover {color: #336CA6;}
+.ui-state-default.mtz-monthpicker.mtz-monthpicker-month.ui-state-active{color:#336CA6;background:#fff}
+.ui-multiselect,.ui-multiselect:hover{background:#fbfbfb;color:#2d2d2d;font-weight:normal;border: 1px solid #C0C0C0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;}
